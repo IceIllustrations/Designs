@@ -1,6 +1,6 @@
 @font-face {
   font-family: Aharoni;
-  src: url(ahronbd.ttf);
+  src: url(ahronbd.woff);
 }
 
 #main {
@@ -94,7 +94,7 @@ li {
 .text {
   z-index: 500;
   text-align: center;
-  font-size: 3.5em;
+  font-size: 2em;
   position: absolute;
   color: white;
   width: 100vw;
@@ -109,7 +109,7 @@ li {
 
 p {
   font-family: Arial;
-  position: absolute;
+  position: relative;
 }
 
 a {
@@ -126,7 +126,7 @@ a {
 
 #contact {
   position: relative;
-  margin: 85vh auto auto auto;
+  margin: 45vh auto auto auto;
   max-width: 80vw;
 }
 
