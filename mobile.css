@@ -1,0 +1,159 @@
+@font-face {
+  font-family: Aharoni;
+  src: url(ahronbd.ttf);
+}
+
+@media only screen and (min-width: 768px) {
+  #icelogo {
+    height: 24vh !important;
+    margin-top: 25vh !important;
+    margin-bottom: 40vh !important;
+  }
+  #twittericon {
+    margin-top: 2vh !important; 
+    width: 90vw !important;
+  }
+  .menu {
+    font-size: 2.5vh !important;
+  }
+  ul {
+    margin-top: 0 !important;
+    margin-left: 0vw !important;
+    text-align: center;
+  }
+  #menu {
+    margin-right: 0 !important;
+  }
+}
+
+#main {
+  height: 300vh;
+  width: 100vw;
+  position: relative;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: white;
+  overflow-x: hidden;
+}
+
+#rectContainer {
+  position: absolute;
+  width: 100vw;
+  height: 210vh;
+  background: #0060ff;
+  border-top-left-radius: 10vw;
+  
+}
+
+#rectContainer:before {
+  content: "";
+  width: 10vw;
+  height: 10vw;
+  background-color: #0060ff;
+  position: absolute;
+  top: -9.9vw;
+  right: 0;
+  z-index: 0;
+}
+
+#rectContainer:after {
+  content: "";
+  width: 20vw;
+  height: 20vw;
+  background-color: white;
+  top: -20vw;
+  position: absolute;
+  right: 0;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+body {
+  margin: 0;
+}
+
+html {
+  overflow: scroll;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+width: 0px;
+background: transparent;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 5vh auto 5vh auto;
+  padding: 0;
+}
+
+#justRect {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+li {
+  display: inline;
+}
+
+#menu {
+  font-size: 2.5vh;
+  margin-top: 2.5vh;
+  margin-right: 5vw;
+  float: right;
+}
+
+.menu {
+  padding-left: 2vw;
+  padding-right: 2vw;
+  color: #0060ff;
+}
+
+.text {
+  z-index: 500;
+  text-align: center;
+  font-size: 3.5em;
+  position: absolute;
+  color: white;
+  width: 100vw;
+  height: 200vh;
+  max-lines: 5;
+}
+
+#rectsvg {
+  width: 100vw;
+  height: 200vh;
+}
+
+p {
+  font-family: Arial;
+  position: absolute;
+}
+
+a {
+  text-decoration: none;
+}
+
+#about {
+  position: relative;
+  max-width: 80vw;
+  margin: 25vh auto auto auto;
+  z-index: 500;
+  
+}
+
+#contact {
+  position: relative;
+  margin: 85vh auto auto auto;
+  max-width: 80vw;
+}
+
+#twitter {
+  margin-top: 2.5vh;
+}
